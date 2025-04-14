@@ -41,7 +41,7 @@
                 </button>
                 <button
                     class="px-4 py-2 rounded bg-gray-300 hover:bg-gray-400"
-                    @click="$emit('close')"
+                    @click="emit('close')"
                 >
                     Close
                 </button>

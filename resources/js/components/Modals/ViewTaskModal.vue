@@ -25,7 +25,7 @@
             <div class="flex justify-end gap-3">
                 <button
                     class="px-4 py-2 rounded bg-green-500 text-white hover:bg-green-700"
-                    @click="emit('statusChange', task.id)"
+                    @click="emit('statusChange')"
                 >
                     {{
                         task.isActive
@@ -35,7 +35,7 @@
                 </button>
                 <button
                     class="px-4 py-2 rounded bg-red-500 text-white hover:bg-red-600"
-                    @click="emit('delete', task.id)"
+                    @click="emit('delete')"
                 >
                     Delete
                 </button>
